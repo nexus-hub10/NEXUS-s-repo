@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>HTTPS</string>
+<key>ServerAddresses</key>
+<array>
+<string>2606:4700:4700::1111</string>
+<string>2606:4700:4700::1001</string>
+<string>1.1.1.1</string>
+<string>1.0.0.1</string>
+</array>
+<key>ServerURL</key>
+<string>https://gotmmm9atx.cloudflare-gateway.com/dns-query</string>
+</dict>
+<key>OnDemandRules</key>
+<array>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>WiFi</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>Cellular</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Disconnect</string>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>Configures device to use hardware AppInstalleriOS  Encrypted DNS over HTTPS</string>
+<key>PayloadDisplayName</key>
+<string>hardware AppInstalleriOS  DNS over HTTPS</string>
+<key>PayloadIdentifier</key>
+<string>com.apple.dnsSettings.managed.c82a636a-af15-41b0-ba4a-c74e7984fb36</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>7f9baa49-c450-4216-930d-53698a7a3668</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>ProhibitDisablement</key>
+<false/>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>Adds hardware AppInstalleriOS  Encrypted DNS over HTTPS to Big Sur and iOS 14 based systems</string>
+<key>PayloadDisplayName</key>
+<string>hardware AppInstalleriOS  DNS over HTTPS</string>
+<key>PayloadIdentifier</key>
+<string>com.notjakob.apple-dns.d9f6b1f6-fabf-4d85-a9ee-431aca4e28a8</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>9d5d0561-e5ef-49d6-92ac-b4663a98b9d3</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>
